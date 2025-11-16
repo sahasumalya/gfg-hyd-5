@@ -3,6 +3,7 @@ package org.example;
 public class Square extends ParalleloGram {
      public double side;
      public String color;
+     public String squareProperty;
      public Square(double side, int rate, String name){
          super(name, rate);
          this.side = side;
